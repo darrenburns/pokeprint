@@ -5,9 +5,6 @@ description = "Print Pokemon in the terminal"
 authors = ["Darren Burns <darrenb900@gmail.com>"]
 maintainers = ["Darren Burns <darrenb900@gmail.com>"]
 
-[tool.poetry.scripts]
-pokeprint = "pokeprint:run"
-
 [tool.poetry.dependencies]
 python = "^3.8"
 Pillow = "8.0.0"
