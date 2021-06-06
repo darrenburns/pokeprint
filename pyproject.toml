@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pokeprint"
+version = "0.1.0"
+description = "Print Pokemon in the terminal"
+authors = ["Darren Burns <darrenb900@gmail.com>"]
+maintainers = ["Darren Burns <darrenb900@gmail.com>"]
+
+[tool.poetry.scripts]
+pokeprint = "pokeprint:run"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "8.0.0"
+rich = "^10.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
